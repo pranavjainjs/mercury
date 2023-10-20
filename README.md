@@ -14,7 +14,7 @@ Steps :-
 2. `cd mercury`
 3. mkdir build
 4. `cd build`
-5. Run `cmake ..`. Makefile will be created in build directory.
+5. Run `cmake ..` in Linux systems / `cmake .. -G "MinGW Makefiles"` in Windows systems (to make MinGW Makefiles). Makefile will be created in build directory.
 6. Run `make`. Now, the executable `build/mercury` should be created.
 
 ### Running
